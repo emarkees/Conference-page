@@ -6,7 +6,7 @@ body {
 .normal-font {
   font-size: 24px;
   font-family: 'lato', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 25px;
   font-style: normal;
 }
@@ -88,17 +88,42 @@ body {
 
 .menu {
   display: flex;
-  flex-direction: column;
-  position: fixed;
+  position: absolute;
   margin-top: 18rem;
-  width: 90%;
-  background: #000;
+  width: 100%;
+  height: px;
+  gap: 8px;
+  background: #ec5242;
   align-items: center;
 }
 
-ul li {
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  gap: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px #4f51b3 solid;
   list-style-type: none;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #fff;
+
+}
+
+ul li {
+  
 }
 
 
