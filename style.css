@@ -36,10 +36,9 @@ body {
 
 .hamburger {
   display: block;
-  align-items: flex-start;
   position: relative;
   width: fit-content;
-  height: 35px;
+  height: 30px;
   border-radius: 2px;
   margin-right: 6rem;
   z-index: 1001;
@@ -54,9 +53,9 @@ body {
 
 .bar {
   display: block;
-  width: 30px;
-  height: 5px;
-  margin: 6px auto;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: #272a32;
@@ -68,12 +67,12 @@ body {
 
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background: #fff;
+  background: #000;
 }
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-  background: #fff;
+  background: #000;
 }
 
 .logo {
@@ -87,14 +86,20 @@ body {
 }
 
 .menu {
-  display: flex;
-  position: absolute;
+  display: none;
+  position: fixed;
   margin-top: 18rem;
   width: 100%;
   height: px;
   gap: 8px;
   background: #ec5242;
   align-items: center;
+  z-index: 1;
+}
+
+.menu.active {
+  left: 0;
+  display: flex;
 }
 
 .mobile-menu {
@@ -104,27 +109,31 @@ body {
   width: 80%;
   height: 100%;
   gap: 8px;
+  content: normal;
 }
 
-.nav-link {
+.nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  border: 1px #4f51b3 solid;
-  list-style-type: none;
-  text-decoration: none;
   cursor: pointer;
 }
 
-.nav-link:hover {
-  background: #000;
-  color: #fff;
+.nav-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
 
+.nav-link:hover {
+  background: #a37878;
+  color: #fff;
 }
 
 ul li {
-  
+  list-style-type: none;
 }
 
 
