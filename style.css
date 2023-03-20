@@ -3,12 +3,14 @@ body {
   background: #b34343;
 }
 
-.normal-font {
-  font-size: 24px;
+.primary-font {
+  font-size: 20px;
   font-family: 'lato', sans-serif;
   font-weight: 400;
   line-height: 25px;
   font-style: normal;
+  letter-spacing: 0.01rem;
+  color: #515151;
 }
 
 .semi-bold-font {
@@ -136,14 +138,39 @@ ul li {
   list-style-type: none;
 }
 
+.header-body {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  height: auto;*/
 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3.5rem;
 
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  width: 80%;
+  height: auto;
+  background: green;
+  border: 1px gold solid;*/
+}
 
 .headline-header {
   display: flex;
   align-items: flex-start;
-  width: 100%;
-  height: auto;
+  padding: 0.1rem;
+  width: 80%;
+  height: 1.5rem;
+  border: 2px solid green;
 }
 
 .headline-body {
@@ -166,11 +193,12 @@ ul li {
 
 .body-intro {
   display: flex;
-  align-items: center;
-  padding: 1.5rem;
-  width: 80%;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 0.7rem;
+  width: 90%;
   height: auto;
-  border: 2px solid green;
+  border: 2px solid rgb(203, 207, 203);
 }
 
 .main-program-section {
