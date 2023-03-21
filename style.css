@@ -25,7 +25,8 @@ body {
 .header {
   background: #f7f7f9;
   width: auto;
-  height: 718px;
+  height: 700px;
+  background: #000;
 }
 
 .navbar {
@@ -201,14 +202,27 @@ ul li {
   padding: 0.7rem;
   width: 90%;
   height: auto;
-  border: 2px solid rgb(203, 207, 203);
+  border: 5px solid #fff;
 }
 
 .time {
   display: flex;
   width: 70%;
   font-size: 20px;
+  margin-top: 2.5rem;
   margin-left: 2rem;
+}
+
+.venue {
+  display: flex;
+  width: 90%;
+  height: auto;
+  font-size: 20px;
+  margin-left: 2rem;
+}
+
+p {
+  margin: 0.5rem;
 }
 
 .main-program-section {
