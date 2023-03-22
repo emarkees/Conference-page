@@ -38,6 +38,7 @@ body {
   height: 4rem;
   align-items: center;
   gap: 2rem;
+  background: gold;
 }
 
 .hamburger {
@@ -46,7 +47,7 @@ body {
   width: fit-content;
   height: 30px;
   border-radius: 2px;
-  margin-right: 6rem;
+  margin-left: 1rem;
   z-index: 1001;
   cursor: pointer;
 }
@@ -88,6 +89,7 @@ body {
   text-align: center;
   width: auto;
   height: 4rem;
+ 
   text-decoration: none;
 }
 
@@ -299,7 +301,7 @@ div.card-container {
   align-items: center;
   justify-self: center;
   padding: 1.9rem 0;
-  width: 100%;
+  width: auto;
   height: 1.9em;
   gap: 0.5rem;
   margin: 0;

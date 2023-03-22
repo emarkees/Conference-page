@@ -39,6 +39,13 @@ hamburger.addEventListener('click', () => {
       speakerBiography: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
       featuredImage: './assets/images/speaker1.svg',
     },
+    {
+      id: 3,
+      name: 'Yochai Benkler',
+      speakerProfession: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+      speakerBiography: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+      featuredImage: './assets/images/speaker1.svg',
+    },
 
   ];
 
