@@ -1,7 +1,6 @@
 body {
   margin: 0;
   height: auto;
-  background: #b34343;
 }
 
 .primary-font {
@@ -24,8 +23,13 @@ body {
 
 .header {
   background: #f7f7f9;
-  width: auto;
+  width: 100%;
   height: 650px;
+  background-image: url(./assets/images/bgconfrence.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -0.5rem 100%;
+  background-position-x: -4rem;
+  z-index: 1001;
 }
 
 .navbar {
@@ -172,17 +176,26 @@ ul li {
   width: 90%;
   height: 1.5rem;
   color: #ec5242;
-  border: 2px solid green;
 }
 
 .headline-body {
   display: flex;
-  align-items: flex-start;
-  padding: 0rem;
-  width: 85%;
+  width: 92%;
   height: auto;
   margin-top: 0;
   margin-bottom: 0;
+  background-image: url(./assets/images/bg3.jpg);
+  text-transform: uppercase;
+  background-repeat: repeat;
+  background-size: contain;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 30px;
+  font-family: 'Gothic A2', sans-serif;
 }
 
 .headline-body-intro {
@@ -201,13 +214,14 @@ ul li {
   padding: 0.7rem;
   width: 90%;
   height: auto;
+  margin-top: 1.5rem;
   color: #515151;
   border: 5px solid #fff;
 }
 
 .time {
   display: flex;
-  width: 70%;
+  width: 80%;
   font-size: 20px;
   color: #595959;
   margin-top: 2.5rem;
@@ -233,7 +247,17 @@ p {
   width: 100%;
   height: auto;
   align-items: center;
-  background: green;
+  background-image: url(./assets/images/background2.jpg);
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  background-color: rgba(1, 1, 14, 0.829);
 }
 
 .program-section {
@@ -242,7 +266,6 @@ p {
   justify-content: center;
   width: 100%;
   height: 200px;
-  background: #b34f54;
   border: 2px solid rgb(194, 209, 194);
 }
 
@@ -257,152 +280,6 @@ p {
   color: #fff;
   align-items: center;
   justify-content: center;
-  background: blue;
-}
-
-.program-section {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
-  width: 95%;
-  height: auto;
- /* align-items: flex-start;
-  justify-content: flex-start;*/
 }
 
 
-div.card-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-self: center;
-  padding: 1.9rem 0;
-  width: 100%;
-  height: 1.9em;
-  gap: 0.5rem;
-  margin: 0;
-  margin-top: 0.5rem;
-  background: gold;
-}
-
-.card-img {
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  width: auto;
-  height: 3rem;
-  margin-left: 0.5rem;
-  padding: 0;
-  order: 0;
-}
-
-.card-title {
-  display: flex;
-  position: relative;
-  width: 16%;
-  height: fit-content;
-  font-size: 13px;
-  margin: 0;
-  order: 1;
-  color: #ec5242;
-}
-
-.card-text {
-  display: flex;
-  position: relative;
-  width: 65%;
-  height: auto;
-  order: 2;
-  float: left;
-  font-size: 13px;
-  color: #fff;
-}
-
-.link {
-  display: flex;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
-  height: 50px;
-  color: #fff;
-  background: #ec5242;
-  text-decoration: none;
-}
-
-.speaker-details {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  justify-content: space-around;
-  background: #fff;
-}
-
-.featured {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 20%;
-  font-size: 20px;
-  color: #000;
-}
-
-.card-speaker {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 8px;
-  margin: 0;
-}
-
-.left-speaker-details {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  height: auto;
-  gap: 4px;
-}
-
-.details {
-  display: flex;
-  height: auto;
-  gap: 4px;
-  flex-direction: column;
-}
-
-.speaker-name {
-  display: flex;
-  width: 100%;
-  height: auto;
-  color: #000;
-  margin: 1px;
-}
-
-.speaker-img {
-  display: flex;
-  width: 60%;
-  height: 50%;
-  margin-left: 5px;
-}
-
-.about-speaker-dtls {
-  height: auto;
-  width: 100%;
-  font-size: 10px;
-  margin: 0;
-  line-height: 12px;
-  color: #f78c89;
-}
-
-.about-speaker {
-  display: flex;
-  width: 100%;
-  height: auto;
-  font-size: 10px;
-  line-height: 12px;
-  margin: 2px;
-  color: #000;
-}
