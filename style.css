@@ -282,4 +282,155 @@ p {
   justify-content: center;
 }
 
+.program-section {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+  width: 95%;
+  height: auto;
+ /* align-items: flex-start;
+  justify-content: flex-start;*/
+}
 
+
+div.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  padding: 1.9rem 0;
+  width: 100%;
+  height: 1.9em;
+  gap: 0.5rem;
+  margin: 0;
+  margin-top: 0.5rem;
+  background: #3b3e45ea;
+  background-repeat: repeat;
+  color: #fff;
+}
+
+.card-img {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: auto;
+  height: 3rem;
+  margin-left: 0.5rem;
+  padding: 0;
+  order: 0;
+}
+
+.card-title {
+  display: flex;
+  position: relative;
+  width: 16%;
+  height: fit-content;
+  font-size: 13px;
+  margin: 0;
+  order: 1;
+  color: #ec5242;
+}
+
+.card-text {
+  display: flex;
+  position: relative;
+  width: 65%;
+  height: auto;
+  order: 2;
+  float: left;
+  font-size: 13px;
+  color: #fff;
+}
+
+.link {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 50px;
+  color: #fff;
+  background: #ec5242;
+  text-decoration: none;
+}
+
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  font-size: 20px;
+  color: #000;
+}
+
+.card-speaker {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 8px;
+  margin: 0;
+}
+
+.left-speaker-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0;
+  height: auto;
+  gap: 4px;
+  flex: 50%;
+}
+
+.details {
+  display: flex;
+  height: auto;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.speaker-name {
+  display: flex;
+  width: 100%;
+  height: auto;
+  color: #000;
+  margin: 1px;
+  flex: 50%;
+}
+
+.speaker-img {
+  display: flex;
+  width: 25%;
+  height: 50%;
+  margin-left: 5px;
+}
+
+.about-speaker-dtls {
+  height: auto;
+  width: 85%;
+  font-size: 10px;
+  margin: 0;
+  line-height: 12px;
+  color: #f78c89;
+}
+
+.about-speaker {
+  display: flex;
+  width: 99%;
+  height: auto;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  color: #000;
+}
