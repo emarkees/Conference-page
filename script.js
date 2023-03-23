@@ -15,6 +15,19 @@ document.querySelectorAll('menuaction')
   }));
 
 
+const chevron = document.getElementById('showMore');
+const allSpeakers = document.getElementById('speaker-details')
+
+chevron.addEventListener('click', () => {
+  chevron.classList.toggle('active');
+  allSpeakers.classList.toggle('active');
+  
+ if (chevron.innerHTML === 'More') {
+    chevron.innerHTML = 'more';
+  } else {
+    chevron.innerHTML = 'Less';
+  }
+});
 
 const details = [
     {
@@ -90,19 +103,4 @@ details.forEach((data) => {
     `;
     speakerSection.innerHTML = html;
   });
-
-
-const hideSpeaker = document.getElementById('card-section');
-const speakers = document.
-
-
-  details.forEach((data) => {
-    const card = document.createElement('div');
-    if (data.id > 2) {
-      /*card.classList = 'speaker speaker-hidden';*/
-    }else {
-      card.classList = 'speaker d-flex';
-    }
-  })
-
   
