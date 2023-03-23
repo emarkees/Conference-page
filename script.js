@@ -23,10 +23,15 @@ chevron.addEventListener('click', () => {
   allSpeakers.classList.toggle('active');
   
  if (chevron.innerHTML === 'More') {
-    chevron.innerHTML = 'more';
+   /* chevron.innerHTML = 'more';*/
+    chevron.innerHTML = 'less';
+    
   } else {
-    chevron.innerHTML = 'Less';
+   /* chevron.innerHTML = 'less';*/
+    chevron.innerHTML = 'more';
   }
+
+
 });
 
 const details = [

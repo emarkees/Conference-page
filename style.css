@@ -21,6 +21,14 @@ body {
   font-style: normal;
 }
 
+.tetiary-font {
+  font-size: 22px;
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-style: normal;
+}
+
 .login-section {
   display: none;
 }
@@ -858,6 +866,56 @@ div.card-container {
   text-decoration: underline;
 }
 
+.logo-program-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-creation {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo-creation-title {
+  display: flex;
+  width: 71%;
+  height: auto;
+  padding: 0.9rem;
+  align-items: center;
+  text-align: center;
+}
+
+p .logo-creation-body {
+  display: flex;
+  width: 50%;
+  height: auto;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.logoImg {
+  display: inline;
+  width: 100%;
+  height: 50%;
+  border: none;
+}
+
+
 
 .down-btn {
   display: flex;
@@ -893,7 +951,7 @@ div.card-container {
 
 .fa-chevron-down.active {
   display: flex;
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 
