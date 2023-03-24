@@ -161,10 +161,10 @@ body {
   font-size: 20px;
   color: #868686;
   text-decoration: none;
-} 
+}
 
 .abttxtcol {
- color: #f07f7e;
+  color: #f07f7e;
 }
 
 .nav-link:hover {
@@ -989,7 +989,6 @@ footer {
     width: auto;
     padding: 0;
     gap: 2.5rem;
-    background-color: none;
   }
 
   .logo {
