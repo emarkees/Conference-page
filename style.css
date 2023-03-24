@@ -980,6 +980,7 @@ footer {
     width: auto;
     height: auto;
     gap: 12px;
+    background: none;
   }
 
   .mobile-menu {
