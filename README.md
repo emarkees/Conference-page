@@ -40,7 +40,10 @@
 - CSS 3 that is used for structuring and styling web pages, especially flexbox and grid.
 
 
-### <a name="walkthrough" href= "">Project Walkthrough</a> loom video comming soon
+### <a name="walkthrough" href= "">Project Walkthrough</a> 
+
+**[https://www.loom.com/share/f670ab1646e54732bd9ea659289274c3]**
+
 
 ### Key Features <a name="key-features"></a>
 
