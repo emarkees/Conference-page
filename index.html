@@ -4,9 +4,137 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" integrity="sha512-XJ3ntWHl40opEiE+6dGhfK9NAKOCELrpjiBRQKtu6uJf9Pli8XY+Hikp7rlFzY4ElLSFtzjx9GGgHql7PLSeog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Document</title>
 </head>
 <body>
- 
+  
+  <header class="header">
+    <div class="top">
+      <nav class="login-section">
+        <div class="log-content">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <select name="language" id="language">
+            <option value="" selected="selected">Language</option>
+            <option class="language-link">English</option>
+            <option class="language-link">Spainish</option>
+            <option class="language-link">French</option>
+            <option class="language-link">Arabic</option>
+          </select>
+          
+          <a href="" class="page-link">My Page</a>
+          <a href="">LogOut</a>
+        </div>        
+      </nav>
+      <nav class="navbar">
+        <div class="hamburger menuaction" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="logo " id="">
+          <a href="index.html"><img src="./assets/images/navlogo.svg" alt=""></a>
+        </div>
+        <nav class="menu" id="menu">
+          <ul class="mobile-menu">
+            <li class="nav-item  primary-font "><a href="./about.html" class="nav-link primary-font abttxtcol menuaction">About</a></li>
+            <li class="nav-item  primary-font "><a href="#about" class="nav-link menuaction">Program</a></li>
+            <li class="nav-item  primary-font "><a href="#about" class="nav-link menuaction">Join</a></li>
+            <li class="nav-item primary-font "><a href="#about" class="nav-link menuaction">Sponsor</a></li>
+            <li class="nav-item primary-font"><a href="#about" class="nav-link menuaction">News</a></li>
+          </ul>
+        </nav>
+        <a href="#campaign" class="campaign campaign-link tetiary-font">CC Campaign</a>
+      </nav>
+      
+     
+    </div>
+  
+    <div class="header-body">
+      <p class="headline-header primary-font">"Hello! Sharing world"</p>
+      <p class="headline-body secondary-font">CREATIVE COMMONS GLOBAL SUMMIT 2015</p>
+    </div>
+    <div class="headline-body-intro">
+      <p class="body-intro primary-font">A joyful summit where we believe in the value of openness and sharing to create a positive change with people from over 80 countries is taking place in Octber, in Nigeria</p>
+    </div>
+    
+    <div class="time secondary-font">2015.10.15(THU) ~ 16(FRI)</div>
+    <P class="venue primary-font">@ National Museum of Nigeria, Art Center Lagos and more</P>
+  </header>
+  <section class="main-program-section">
+    <div class="overlay">
+    <h1 class="program-head primary-font">
+      Main Program
+    </h1>
+    <div class="program-section">
+     
+      <div class="card-container">
+        <img src="./assets/images/Lecture.svg" alt="lucture logo" class="card-img">
+        <h5 class=" card-title primary-font">Lecture</h5>
+        <p class="card-text primary-font">Listen to the speakers from various countries about the messages of sharing and opening new ideas.</p>
+      </div>
+     <div class="card-container">
+        <img src="./assets/images/Exhibition.svg" alt="Exhibition logo" class="card-img">
+        <h5 class="card-title primary-font">CC Exhibition</h5>
+        <p class="card-text primary-font">Appreciate various creations applying CC license of artists, organized from Art Center Lagos</p>
+      </div>
+       <div class="card-container">
+        <img src="./assets/images/Forum.svg" alt="forum logo" class="card-img">
+        <h5 class="card-title primary-font">Forum</h5>
+        <p class="card-text primary-font">Have the time to share your thoughts and opinions for each topic.</p>
+      </div>
+      <div class="card-container">
+        <img src="./assets/images/Workshop.svg" alt="workshop logo" class="card-img">
+        <h5 class="card-title primary-font">Workshop</h5>
+        <p class="card-text primary-font">Try creating your own work using open source license rather than just watching at it.</p>
+      </div>
+      <div class="card-container">
+        <img src="./assets/images/ignite.svg" alt="ignite logo" class="card-img">
+        <h5 class="card-title primary-font">CC Ignite</h5>
+        <p class="card-text primary-font">get opportunities to network with CC affiliates around the world, also after the summit.</p>
+      </div>
+    </div>
+    <a href="#" class="link primary-font">Join CC Global Submit 2015</a>
+    <a href="" class=" fullProgram tetiary-font">SEE THE WHOLE PROGRAM</a>
+
+  </div>
+  </section>
+  <h3 class="featured primary-font"> Featured speakers</h3>
+  <section class="speaker-section" >
+    <div class="speaker-details " id="speaker-details">
+      
+    </div>  
+    
+  </section>
+  <div class="down-btn">
+
+    <button type="button" onclick="moreBttn " class="more-future primary-font" id="showMore"><p class="more-btn">MORE<i class="fa-sharp fa-solid fa-chevron-down"></i></p>  
+    </button> 
+  </div>
+  <footer id="partners">
+    <div class="home-partner-section">
+      <h1 class="footer-title tetiary-font">Partner</h1>
+      <div class="partner-link">
+        <a href="" class="mozilla"></a>
+        <a href="" class="google"></a>
+        <a href="" class="naver"></a>
+        <a href="" class="daumkakao"></a>
+        <a href="" class="airbnb"></a>
+      </div>
+       
+    </div>
+    <div class="home-footer_content">
+       <a href="" class="footerimg2"><img src="./assets/images/homeFooter.svg" alt=""></a>
+      <p class="home-credit primary-font">2023 Creative Writers Nigeria Some Rights Reserve</p>
+    </div>
+   
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
