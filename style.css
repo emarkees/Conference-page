@@ -932,7 +932,10 @@ footer {
   width: auto;
   height: auto;
   color: #8f8f91;
-  text-decoration: underline;
+  padding-bottom: 5px;
+  border-color: #a04038;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
 }
 
 .footer_content {
