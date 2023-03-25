@@ -17,7 +17,7 @@ document.querySelectorAll('menuaction')
 // More menu
 const chevron = document.getElementById('showMore');
 const allSpeakers = document.getElementById('speaker-details');
-const moreBttn = document.querySelector('.more-btn')
+const moreBttn = document.querySelector('.more-btn');
 
 chevron.addEventListener('click', () => {
   chevron.classList.toggle('active');
