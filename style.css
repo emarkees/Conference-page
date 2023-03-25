@@ -763,12 +763,13 @@ div.card-container {
 .down-btn {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   padding: 0;
   margin-top: 1.6rem;
   align-items: center;
   align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 }
 
@@ -780,7 +781,7 @@ div.card-container {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   order: 3;
   color: #000;
