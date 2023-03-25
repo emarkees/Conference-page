@@ -778,7 +778,7 @@ div.card-container {
   flex-direction: row;
   width: 80%;
   gap: 15px;
-  padding: 0.05rem;
+  padding: 0.01rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -791,7 +791,7 @@ div.card-container {
 .fa-chevron-down {
   display: flex;
   width: auto;
-  height: 2rem;
+  height: auto;
   align-items: center;
 }
 
