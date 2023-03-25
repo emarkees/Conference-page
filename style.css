@@ -957,10 +957,10 @@ footer {
 
 .credit {
   display: flex;
-  width: 50%;
+  width: 40%;
   height: auto;
   order: 1;
-  font-size: 15px;
+  font-size: 12px;
   line-height: normal;
 }
 
