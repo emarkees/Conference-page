@@ -476,7 +476,19 @@ div.card-container {
   color: #ec5242;
 }
 
-
+.about-headline-body-about {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 30px;
+  color: #ec4327;
+  font-family: 'Gothic A2', sans-serif;
+}
 
 .about-headline-body {
   display: flex;
