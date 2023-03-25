@@ -762,11 +762,11 @@ div.card-container {
 
 .down-btn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   padding: 0;
-  margin-top: 1.6rem;
+  margin-top: 2.5rem;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -775,9 +775,10 @@ div.card-container {
 
 .more-future {
   display: flex;
+  flex-direction: row;
   width: 80%;
   gap: 15px;
-  padding: 0.01rem;
+  padding: 0.05rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -809,6 +810,16 @@ div.card-container {
 .more-lessExpand {
   height: auto !important;
   overflow: visible !important;
+}
+
+.fa-chevron-down {
+  display: flex;
+  flex: 50%;
+  color: #dd4141;
+}
+
+.fa-chevron-down.active {
+  transform: rotate(180deg);
 }
 
 footer {
