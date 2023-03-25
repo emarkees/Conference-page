@@ -788,18 +788,6 @@ div.card-container {
   color: #000;
 }
 
-.fa-chevron-down {
-  display: flex;
-  width: auto;
-  height: auto;
-  align-items: center;
-}
-
-.fa-chevron-down.active {
-  display: flex;
-  transform: rotate(180deg);
-}
-
 .speaker-section {
   display: flex;
   justify-content: center;
@@ -819,6 +807,7 @@ div.card-container {
 }
 
 .fa-chevron-down.active {
+  display: flex;
   transform: rotate(180deg);
 }
 
