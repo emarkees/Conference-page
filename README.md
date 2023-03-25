@@ -54,7 +54,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href=""> Visit the site!</a>
-**[Coming soon after review]**
+**[https://emarkees.github.io/Conference-page/]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
