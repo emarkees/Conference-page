@@ -168,7 +168,8 @@ body {
 }
 
 .nav-link:hover {
-  background: #a37878;
+  background: #f07f7e;
+  padding: 0.2rem;
   color: #fff;
 }
 
