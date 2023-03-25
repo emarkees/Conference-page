@@ -891,7 +891,12 @@ footer {
 }
 
 .footer-title {
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: #fff;
 }
 
 .footer_content {
